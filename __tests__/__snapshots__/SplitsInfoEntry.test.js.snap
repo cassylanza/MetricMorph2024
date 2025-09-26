@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitsInfoEntry renders correctly 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "marginBottom": "100%",
+            "paddingTop": 23,
+          }
+        }
+      >
+        <TextInput
+          keyboardType="number-pad"
+          onChangeText={[Function]}
+          placeholder=" Current Race Distance (in meters)"
+          placeholderTextColor="grey"
+          style={
+            {
+              "borderBottomColor": "grey",
+              "borderBottomWidth": 1,
+              "height": 50,
+              "margin": "10%",
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-between",
+              "margin": "10%",
+            }
+          }
+        >
+          <TextInput
+            keyboardType="number-pad"
+            maxLength={2}
+            onChangeText={[Function]}
+            placeholder="  hh  "
+            placeholderTextColor="grey"
+            style={
+              {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 1,
+                "height": 50,
+                "margin": "10%",
+              }
+            }
+          />
+          <Text>
+             : 
+          </Text>
+          <TextInput
+            keyboardType="number-pad"
+            maxLength={2}
+            onChangeText={[Function]}
+            placeholder="  mm  "
+            placeholderTextColor="grey"
+            style={
+              {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 1,
+                "height": 50,
+                "margin": "10%",
+              }
+            }
+          />
+          <Text>
+             : 
+          </Text>
+          <TextInput
+            keyboardType="number-pad"
+            maxLength={5}
+            onChangeText={[Function]}
+            placeholder="  ss  "
+            placeholderTextColor="grey"
+            style={
+              {
+                "borderBottomColor": "grey",
+                "borderBottomWidth": 1,
+                "height": 50,
+                "margin": "10%",
+              }
+            }
+          />
+        </View>
+        <TextInput
+          keyboardType="number-pad"
+          onChangeText={[Function]}
+          placeholder=" Desired Split Distance (in meters)"
+          placeholderTextColor="grey"
+          style={
+            {
+              "borderBottomColor": "grey",
+              "borderBottomWidth": 1,
+              "height": 50,
+              "margin": "10%",
+            }
+          }
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "green",
+              "borderRadius": 25,
+              "flexDirection": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "margin": 15,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "textAlign": "center",
+              }
+            }
+          >
+             CALCULATE 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "bottom": 0,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "position": "absolute",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderWidth": 1,
+            "fontSize": 20,
+            "height": 100,
+            "padding": 37,
+            "textAlign": "center",
+            "width": 188,
+          }
+        }
+      >
+         Swim Menu 
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderWidth": 1,
+            "color": "blue",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "height": 100,
+            "padding": 37,
+            "textAlign": "center",
+            "width": 188,
+          }
+        }
+      >
+         Track Menu 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
