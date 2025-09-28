@@ -14,9 +14,8 @@ MetricMorph is an iOS (React Native) app for converting swimming and running per
   - [Running the App](#running-the-app)  
   - [Running Tests](#running-tests)  
 - [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
 - [License](#license)  
-- [Authors](#authors)  
+- [Authors](#authors--acknowledgements)  
 
 ---
 
@@ -60,22 +59,25 @@ yarn install
 ```
 ### Running the app
 
+```bash
 # Run in development mode
 npx react-native start
 
 # In a separate terminal launch the iOS app
 npx react-native run-ios
-
+```
 ### Running tests
 
+```bash
 npm test
 # or
 yarn test
+```
 
 ---
 
 ## Project Structure
-
+```
 MetricMorph2024/
 ├── __tests__/                 # Unit / component tests
 ├── src/ / .js / .tsx files    # App source code and components
@@ -85,18 +87,25 @@ MetricMorph2024/
 ├── react-native.config.js     # Native linking config
 ├── README.md                  # This file
 └── .gitignore                 # Git ignore file
+```
 
 Key Components/ Modules:
 
-ConversionResults.js, ConvertMeterYardResults.js, EffortResults.js etc. — the logic/UI for various conversion features
-
-Routes.js — app navigation configuration
-
-Icons.tsx — icon assets / wrapper component
+- ConversionResults.js, ConvertMeterYardResults.js, EffortResults.js etc. — the logic/UI for various conversion features
+- Routes.js — app navigation configuration
+- Icons.tsx — icon assets / wrapper component
 
 ---
 
-## 
+## License
+
+No license has yet been selected.
+This code is visible for reference, but permission is required to use, copy, or modify it.
+
+## Authors & Acknowledgements
+- Cassandra Lanza, Alexander Leskovansky, Abigail Leskovansky
+- Course: CS-355 Software Engineering
+- Inspired by time conversion tools and training calculators
 
 
 
